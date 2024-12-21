@@ -5,9 +5,9 @@ public class Follower : MonoBehaviour
 {
     [SerializeField] private Transform _followTarget;
     [SerializeField, Min(0)] private float _movementSpeed = 1;
-    [Tooltip("На каком расстоянии от цели нужно остановиться.")]
+    [Tooltip("РќР° РєР°РєРѕРј СЂР°СЃСЃС‚РѕСЏРЅРёРё РѕС‚ С†РµР»Рё РЅСѓР¶РЅРѕ РѕСЃС‚Р°РЅРѕРІРёС‚СЊСЃСЏ.")]
     [SerializeField, Min(0)] private float _approachDistance = 1;
-    [Tooltip("На каком расстоянии от целевой позиции нужно начать замедлять движение.")]
+    [Tooltip("РќР° РєР°РєРѕРј СЂР°СЃСЃС‚РѕСЏРЅРёРё РѕС‚ С†РµР»РµРІРѕР№ РїРѕР·РёС†РёРё РЅСѓР¶РЅРѕ РЅР°С‡Р°С‚СЊ Р·Р°РјРµРґР»СЏС‚СЊ РґРІРёР¶РµРЅРёРµ.")]
     [SerializeField, Min(0.01f)] private float _approachSlowdownDistance = 1;
     [SerializeField, Min(0)] private float _rotationSpeed = 90;
 
